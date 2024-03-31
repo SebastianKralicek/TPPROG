@@ -1,0 +1,60 @@
+body
+{
+    font-family: sans-serif;
+}
+header
+{
+    display: flex;
+    background-color: rgb(159, 158, 158);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    display: flex;
+}
+.logo img
+{
+    height: 75px;
+    margin-right: 10px;
+}
+.navlink
+{
+    text-decoration: none;
+    color: black;
+    padding: 2px;
+    font-weight: 600;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.navlink:hover
+{
+    color: white;
+}
+
+@media (max-width:650px){
+ header{
+    flex-direction: column;
+ }
+ nav{
+    padding: 10px 0px;
+ }
+ .footer
+ {
+    flex-direction: column;
+ }
+}
+.nombresintegrantes
+{
+    padding: 40px;
+}
+.footer
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
