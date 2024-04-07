@@ -37,7 +37,7 @@ a
     color: white;
 }
 
-@media (max-width:650px){
+@media (max-width:768px){
  header{
     flex-direction: column;
  }
@@ -71,7 +71,7 @@ a
     padding: 20px;
 
 }
-@media (max-width:650px){
+@media (max-width:768px){
     .navbar{
        padding: 10px 0px;
        flex-direction: column;
@@ -119,6 +119,12 @@ a
         align-items: center;
         
     }
+    .shortnegro
+    {
+        width: 350px;
+        align-items: center;  
+        height: 512px; 
+    }
     .textotitulo
     {
         font-size: 30px;
@@ -142,10 +148,16 @@ a
         margin: 20px;
 
     }
+    .precio1
+    {
+        font-size: 200%;
+        text-align: center;
+    }
     .desc
     {
         font-size: 20px;
         margin: 10px;
+        text-align: center;
     }
     .botoncomprar
     {
@@ -156,3 +168,82 @@ a
         padding: 10px;
         border: none;
     }   
+    .botoncomprar1
+    {
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 6px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: none;
+        }
+@media (max-width:768px){
+   .seccion1{
+    flex-direction: column;
+   }
+   .tituloseccion {
+    font-size: 240%;
+   }
+   .remeranegra{
+    width: 100%;
+    height: 100%;
+   }
+   .precioydesc{
+    width: 100%;
+    font-size: 50%;
+    text-align: center;
+   }
+   .textotitulo {
+    width: 70%;
+    font-size: 85%;
+    text-align: center;
+   }
+   .buzonegro{
+    width: 100%;
+    height: 60%;
+   }
+   .camperanegra{
+    width: 100%;
+    height: 60%;
+   }
+   .botoncomprar{
+font-size: 65%;
+margin-right: 20%;
+}
+.botoncomprar1{
+    font-size: 50%;
+    margin-right: 20%;
+}
+   .precio{
+    align-items: center;
+    margin-right: 30%;
+    width: 70%;
+   }
+   .shortnegro{
+    width: 100%;
+    height: 100%;
+   }
+}
+@media(min-width:769px) and (max-width:990px){
+section {
+flex-direction: column;
+}
+.precio
+{
+    font-size: 150%;
+}
+.botoncomprar{
+    font-size: 150%;
+}
+}
+
+@media (max-width:1500px){
+section{
+flex-direction: column;
+}
+img {
+    width: 100%;
+    height: 75%;
+}
+}
+
