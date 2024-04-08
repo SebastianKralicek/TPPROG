@@ -19,9 +19,8 @@ body{
 }
 .escrito{
   padding: 0 40px;
-  box-sizing: border-box;
 }
-.username{
+.email{
     margin: 30px 0;
 }
 .contraseña{
