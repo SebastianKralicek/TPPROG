@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(158, 159, 159);
+    font-family: sans-serif;
 }
 .Formulario{
     border: 2px solid black;
