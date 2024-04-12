@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(116, 113, 116);
+    font-family: sans-serif;}
+header{
+    display: flex;
+    background-color: rgb(159, 158, 158);
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+}
+.logo img{
+    height: 75px;
+    margin-right: 10px;
+}
+.logo {
+    text-decoration: none;
+    color: black;
+    text-align: center;}
