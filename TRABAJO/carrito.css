@@ -16,48 +16,211 @@ font-family: sans-serif;
     transition: .3s;
 }
 
-svg{
-display: flex;    
+
+/* esto es toda la seccion 1, solo los airpods */
+.seccion1-items{
+    display: block;
+
 }
 
+/* esto es todos los bordes */
+.carrito-item{
+    
+}
 
+/* este es el borde para cada seccion (todos los colores de cada seccion van a estar juntos ) */
+.carrito-item-detalles{
+    border: 1px solid #666;
+    height: 110px;
+
+}
+
+.carrito-item-titulo-1 {
+    padding: 0 10px;
+    }
+
+.carrito-item-precio-1{
+    padding: 5px 10px;
+
+}
+
+.selector-cantidad{
     
 
-.carrito-item-titulo {
+
+}
+
+.filita-1{
+    display: flex;
+}
+
+.plus-1{
+        cursor: pointer;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin-left: 5px;
+        padding: 2px;
+
+
+
+        
+    }
+
+    .carrito-item-cantidad{
+        margin-left: 5px;
+        width: 20px;
+        
+       
+        
+
+    }
+
+
+    .minus-1{
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-left: 3px;
+    padding: 2px;
+
+    
+    }
+
+
+.btn-eliminar-1{
+    cursor: pointer;
+    padding: 10px;
+    margin-left: -5px;
+
+
+}
+
+/* Aqui termina la seccion de "filita-1"y tambien se da comienzo a la seccion 2 */
+
+.carrito-item-titulo-2{
+    padding: 0 10px;
+}
+
+.carrito-item-precio-2{
+    padding: 5px 10px;
+
+}
+
+.filita-2{
 display: flex;
-top: 10px;
+
 }
 
-.carrito .carrito-item .selector-cantidad {
+.plus-2{
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 2px;
+
     
-   
+}
+
+.carrito-item-cantidad{
+    margin-left: 5px;
+    width: 20px;
+    
+
 }
 
 
-
-
-.plus{
-transform: translateX(55px);
+.minus-2{
 cursor: pointer;
 border: 1px solid #000;
 border-radius: 50%;
-
-
-
-
-}
-
-.minus{
-transform: translateY(-20px);
-cursor: pointer;
-border: 1px solid #000;
-border-radius: 50%; 
-
+margin-left: 3px;
+padding: 2px;
 
 }
+
+
+.btn-eliminar-2{
+    cursor: pointer;
+    padding: 10px;
+    margin-left: -5px;
+
+}
+    /* hasta aca llega la seccion "filita-2" */
+
+
+    /* comienzo de seccion 3 y "filita-3" */
+
+    .carrito-item-detalles{
+        border: 1px solid #666;
+        height: 110px;
+    
+    }
+    
+    .carrito-item-titulo-3 {
+        padding: 0 10px;
+        }
+    
+    .carrito-item-precio-3 {
+        padding: 5px 10px;
+    
+    }
+    
+    .selector-cantidad{
+        
+    
+    
+    }
+    
+    .filita-3{
+        display: flex;
+    }
+    
+    .plus-3{
+            cursor: pointer;
+            border: 1px solid #000;
+            border-radius: 50%;
+            margin-left: 5px;
+            padding: 2px;
+    
+    
+    
+            
+        }
+    
+        .carrito-item-cantidad{
+            margin-left: 5px;
+            width: 20px;
+            
+           
+            
+    
+        }
+    
+    
+        .minus-3{
+        cursor: pointer;
+        border: 1px solid #000;
+        border-radius: 50%;
+        margin-left: 3px;
+        padding: 2px;
+    
+        
+        }
+    
+    
+    .btn-eliminar-3 {
+        cursor: pointer;
+        padding: 10px;
+        margin-left: -5px;
+    
+    
+    }
+
+
+    /* esta es la seccion del pago */
 
 .carrito-total{
-transform: translateX(320px);
+margin-left: 350px;
 
 }
 
@@ -69,20 +232,10 @@ transform: translateX(320px);
 
 .bag{
     width: 20px;
-    height: 20px;
-    padding-left: 5px;
-    top: 5%;
+    
     
 }
 
-.btn-eliminar{
 
-}
 
-.carrito-item-cantidad{
-    width: 20px;
-    transform: translateY(-20px);
-    transform: translateX(25px);
-
-}
 
