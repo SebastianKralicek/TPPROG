@@ -61,7 +61,7 @@ input[type="submit"]{
     border-radius: 20px;
 }
 @media (max-width:500px){
-    .Formulario {
+    .form {
         transform: translateX(-125%);
         flex-direction: column;
         align-items: center;
@@ -75,7 +75,7 @@ input[type="submit"]{
      }
 
 @media (min-width:500px) and (max-width:767px){
-.Formulario {
+.form {
     transform: translateX(-70%);
     flex-direction: column;
     align-items: center;

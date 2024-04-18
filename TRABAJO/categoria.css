@@ -238,8 +238,7 @@ nav{
 .botoncomprar{
     font-size: 150%;
 }
-}
-            
+}            
 @media (max-width:1500px){
 section{
     flex-direction: column;
