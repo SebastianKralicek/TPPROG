@@ -67,3 +67,37 @@ a
         margin-right: -15px;
         margin-bottom: -5px;
     }
+.detalle-producto{
+    margin: 100px;
+    background-color: lightgrey;
+    display: flex;
+}
+.img-prod{
+    padding: 30px;
+    background-color: grey;
+    border-radius: 500px;
+}
+.imagen-de-producto{
+    padding: 30px;
+}
+.titulo-producto1{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px;
+    font-size: 30px;
+}
+.detalles-producto-der{
+    display: flex;
+    flex-direction: column;
+}
+.precio-productito{
+    margin-right: auto;
+    padding: 10px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.desc-prod-der{
+    align-items: center;
+}
