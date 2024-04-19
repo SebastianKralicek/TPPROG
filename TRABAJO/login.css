@@ -86,25 +86,23 @@ header
 
 @media (max-width:500px){
     .form {
-        transform: translateX(-125%);
         flex-direction: column;
         align-items: center;
-        width: 70%;
-        height: 70%;
+        width: auto;
+        height: auto;
+        display: flex;
      }
-     .footer
- {
+     .footer {
     flex-direction: column;
- }
+     }
      }
 
 @media (min-width:500px) and (max-width:767px){
 .form {
-    transform: translateX(-70%);
     flex-direction: column;
     align-items: center;
-    width: 60%;
-    height: 60%;
+    width: auto;
+    height: auto;
 }
 }
 @media (max-width:768px){
