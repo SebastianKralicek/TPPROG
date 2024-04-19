@@ -101,3 +101,15 @@ a
 .desc-prod-der{
     align-items: center;
 }
+.llevaralcarrito{
+    width: 80%;
+    height: 50px;
+    background-color: rgb(159, 158, 158);
+    border-radius: 20px;
+}
+button{
+    background-color: rgb(159, 158, 158);
+    width: 80%;
+    height: 50px;
+    border: 20px;
+}
