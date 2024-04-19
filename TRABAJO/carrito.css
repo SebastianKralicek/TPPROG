@@ -258,3 +258,125 @@ a
     color: black;
     text-align: center;
 }
+@media (max-width:420px){
+    .carrito{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        font-size: 105%;
+    }
+    .carrito-item-detalles{
+        height: auto;
+    }
+    .carrito-precio-total{
+       flex-direction: column;
+    }
+    .titulo-carrito{
+        text-align: center;
+    }
+    .carrito-total{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        text-align: center;
+        transform: translateX(-300px);
+    }
+    strong{
+        text-align: center;
+    }
+    .carrito-precio-total{
+        align-items: center;
+        text-align: center;
+    }
+    button{
+        margin-left: 100px;
+    }
+    
+    
+}
+@media (min-width:420.01px) and (max-width:767px){
+    .carrito{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        
+    }
+    .seccion1-items{
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 75%;
+        height: 75%;
+    }
+    .titulo-carrito{
+        text-align: center;
+    }
+    button{
+        margin-left: 100px;
+    }
+}
+@media (max-width:768px){
+    .navbar{
+       padding: 10px 0px;
+       flex-direction: column;
+       align-items: center;
+    }
+    header{
+           flex-direction: column;
+        }
+    nav{
+           padding: 10px 0px;
+        }
+    .footer
+        {
+           flex-direction: column;
+        }
+        .titulo-carrito{
+            text-align: center;
+        }
+        .carrito-total{
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            height: auto;
+            text-align: center;
+            transform: translateX(-200px);
+        }
+        .carrito{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto; 
+        }
+        button{
+            margin-left: 100px;
+        }
+       }
+    @media(min-width:769px){
+        .carrito{
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .imagenes-carrito{
+            padding: 10px 0px;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .titulo-carrito{
+            text-align: center;
+        }
+        .carrito-total{
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            height: auto;
+            text-align: center;
+            transform: translateX(-200px);
+    }
+}
