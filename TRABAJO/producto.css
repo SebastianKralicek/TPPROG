@@ -67,3 +67,30 @@ a
         margin-right: -15px;
         margin-bottom: -5px;
     }
+    .productos
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        align-items: justify;
+    }
+    .remeranegra
+    {
+        width: 350px;
+        align-items: center;
+    }
+    .desc
+    {
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+    .descripcionprod
+    {
+     display: flex;   
+     margin: 50px;
+     flex-direction: column;
+     align-items: center;
+     background-color: white;
+     border-radius: 60px;
+    }
