@@ -50,6 +50,23 @@ nav{
 .navbar a{
     padding: 20px;
 }
+.navlink
+{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    font-weight: 600;
+}
+a 
+{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.navlink:hover
+{
+    color: white;
+}
 @media (max-width:768px){
 .navbar{
     padding: 10px 0px;
@@ -248,5 +265,89 @@ img {
     height: 75%;
 }
 }
+@media (max-width:768px){
+    .seccion1{
+     flex-direction: column;
+    }
+    .tituloseccion {
+     font-size: 240%;
+    }
+    .remeranegra{
+     width: 100%;
+     height: 100%;
+    }
+    .precioydesc{
+     width: 100%;
+     font-size: 50%;
+     text-align: center;
+    }
+    .textotitulo {
+     width: 70%;
+     font-size: 85%;
+     text-align: center;
+    }
+    .buzonegro{
+     width: 100%;
+     height: 60%;
+    }
+    .camperanegra{
+     width: 100%;
+     height: 60%;
+    }
+    .botoncomprar{
+ font-size: 65%;
+ margin-right: 20%;
+ }
+ .botoncomprar1{
+     font-size: 50%;
+     margin-right: 20%;
+ }
+    .precio{
+     align-items: center;
+     margin-right: 30%;
+     width: 70%;
+    }
+    .shortnegro{
+     width: 100%;
+     height: 100%;
+    }
+ }
+ @media(min-width:769px) and (max-width:990px){
+ section {
+ flex-direction: column;
+ }
+ .precio
+ {
+     font-size: 150%;
+ }
+ .botoncomprar{
+     font-size: 150%;
+ }
+ }
             
             
+.talle{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.talle2{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}           
+.talle3{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}  
+.talle4{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}
+.talle5{
+    font-size: 20px;
+    margin: 10px;
+    text-align: center;
+}                                     
