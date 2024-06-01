@@ -612,7 +612,168 @@ margin-left: 350px;
 }
 
 /* ESTILO CSS DE CATEGORIA */
+<<<<<<< HEAD
 
+=======
+.categorias12{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(116, 113, 116);
+    font-family: sans-serif;}
+    .seccion1{
+        align-items: center;
+        background-color: rgb(206, 210, 210);
+        margin: 50px;
+    }
+    .tituloseccion{
+        text-align: center;
+        font-size: 70px;
+        padding-top: 100px;
+        background-color: gray;
+    }
+    .descripcionprod{
+        display: flex;   
+        margin: 50px;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 60px;
+    }
+    .productos{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        align-items: justify;
+    }
+    .remeranegra{
+        width: 350px;
+        align-items: center;
+    }
+    .shortnegro{
+        width: 350px;
+        align-items: center;  
+        height: 512px; 
+    }
+    .textotitulo{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .buzonegro{
+        width: 375px;
+        height: 512px;
+        align-items: center;
+    }
+    .camperanegra{
+        align-items: center;
+        height: 512px;
+        width: 350px;
+    }
+    .precio{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .precio1{
+        font-size: 200%;
+        text-align: center;
+    }
+    .desc{
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+    .botoncomprar{
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 6px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: none;
+    }   
+    .botoncomprar1{
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 6px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: none;
+    }
+    .seccion1{
+        align-items: center;
+        background-color: rgb(206, 210, 210);
+        margin: 50px;
+    }
+    .tituloseccion{
+        text-align: center;
+        font-size: 70px;
+        padding-top: 100px;
+    }
+    .descripcionprod{
+        display: flex;   
+        margin: 50px;
+        flex-direction: column;
+        align-items: center;
+        background-color: white;
+        border-radius: 60px;
+    }
+    .productos{
+        display: flex;
+        justify-content: space-between;
+        margin: 30px;
+        align-items: justify;
+    }
+    .remeranegra{
+        width: 350px;
+        align-items: center;
+    }
+    .shortnegro{
+        width: 350px;
+        align-items: center;  
+        height: 512px; 
+    }
+    .textotitulo{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .buzonegro{
+        width: 375px;
+        height: 512px;
+        align-items: center;
+    }
+    .camperanegra{
+        align-items: center;
+        height: 512px;
+        width: 350px;
+    }
+    .precio{
+        font-size: 30px;
+        margin: 20px;
+    }
+    .precio1{
+        font-size: 200%;
+        text-align: center;
+    }
+    .desc{
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+    }
+    .botoncomprar{
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 6px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: none;
+    }   
+    .botoncomprar1{
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: 6px;
+        margin-bottom: 5px;
+        padding: 10px;
+        border: none;
+    }
+>>>>>>> 638ee9c3f837649ac57913b15f4ca60792dfa63b
     @media(min-width:769px) and (max-width:990px){
    
     .precio{
@@ -622,6 +783,56 @@ margin-left: 350px;
         font-size: 150%;
     }
     }            
+<<<<<<< HEAD
+=======
+    @media (max-width:768px){
+        .seccion1{
+         flex-direction: column;
+        }
+        .tituloseccion {
+         font-size: 240%;
+        }
+        .remeranegra{
+         width: 100%;
+         height: 100%;
+        }
+        .precioydesc{
+         width: 100%;
+         font-size: 50%;
+         text-align: center;
+        }
+        .textotitulo {
+         width: 70%;
+         font-size: 85%;
+         text-align: center;
+        }
+        .buzonegro{
+         width: 100%;
+         height: 60%;
+        }
+        .camperanegra{
+         width: 100%;
+         height: 60%;
+        }
+        .botoncomprar{
+     font-size: 65%;
+     margin-right: 20%;
+     }
+     .botoncomprar1{
+         font-size: 50%;
+         margin-right: 20%;
+     }
+        .precio{
+         align-items: center;
+         margin-right: 30%;
+         width: 70%;
+        }
+        .shortnegro{
+         width: 100%;
+         height: 100%;
+        }
+     }
+>>>>>>> 638ee9c3f837649ac57913b15f4ca60792dfa63b
      @media(min-width:769px) and (max-width:990px){
 
      .precio
@@ -1009,6 +1220,7 @@ align-items: center;
 width: 400px;
 height: 500px;
     }
+<<<<<<< HEAD
 }
 @media (max-width:768px){
     .seccion1{
@@ -1100,4 +1312,6 @@ width: 70%;
 .shortnegro{
 width: 100%;
 height: 100%;
+=======
+>>>>>>> 638ee9c3f837649ac57913b15f4ca60792dfa63b
 }
