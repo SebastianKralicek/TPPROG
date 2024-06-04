@@ -39,18 +39,7 @@ a
     color: white;
 }
 
-@media (max-width:768px){
- header{
-    flex-direction: column;
- }
- nav{
-    padding: 10px 0px;
- }
- .footer
- {
-    flex-direction: column;
- }
-}
+
 .nombresintegrantes
 {
     padding: 40px;
@@ -73,13 +62,7 @@ a
     padding: 20px;
 
 }
-@media (max-width:768px){
-    .navbar{
-       padding: 10px 0px;
-       flex-direction: column;
-       align-items: center;
-    }
-    }
+
     .carritologo
     {
         width: 50px;
@@ -183,89 +166,9 @@ a
         padding: 10px;
         border: none;
         }
-@media (max-width:768px){
-   .seccion1{
-    flex-direction: column;
-   }
-   .tituloseccion {
-    font-size: 240%;
-   }
-   .remeranegra{
-    width: 100%;
-    height: 100%;
-   }
-   .precioydesc{
-    width: 100%;
-    font-size: 50%;
-    text-align: center;
-   }
-   .textotitulo {
-    width: 70%;
-    font-size: 85%;
-    text-align: center;
-   }
-   .buzonegro{
-    width: 100%;
-    height: 60%;
-   }
-   .camperanegra{
-    width: 100%;
-    height: 60%;
-   }
-   .botoncomprar{
-font-size: 65%;
-margin-right: 20%;
-}
-.botoncomprar1{
-    font-size: 50%;
-    margin-right: 20%;
-}
-   .precio{
-    align-items: center;
-    margin-right: 30%;
-    width: 70%;
-   }
-   .shortnegro{
-    width: 100%;
-    height: 100%;
-   }
-}
-@media(min-width:769px) and (max-width:990px){
-.seccion1 {
-flex-direction: column;
-}
-.productos{
-    flex-direction: column;
-    }
-.precioydesc
-    {
-        flex-direction: column;
-    }
-.precio
-{
-    font-size: 150%;
-}
-.botoncomprar{
-    font-size: 150%;
-}
-}
 
-@media (max-width:1500px){
-    .seccion1 {
-        flex-direction: column;
-        }
-        .productos{
-            flex-direction: column;
-            }
-        .precioydesc
-            {
-                flex-direction: column;
-            }
-.imagenes-carrito {
-    width: 100%;
-    height: 75%;
-}
-}
+
+
 
 /* Carrito CSS */
 .bodycarrito
@@ -503,348 +406,11 @@ margin-left: 350px;
 .bag{
     width: 20px;
 }
-@media (max-width:420px){
-    .carrito{
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: auto;
-        font-size: 105%;
-    }
-    .carrito-item-detalles{
-        height: auto;
-    }
-    .carrito-precio-total{
-       flex-direction: column;
-    }
-    .titulo-carrito{
-        text-align: center;
-    }
-    .carrito-total{
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: auto;
-        text-align: center;
-        transform: translateX(-300px);
-    }
-    strong{
-        text-align: center;
-    }
-    .carrito-precio-total{
-        align-items: center;
-        text-align: center;
-    }
-    button{
-        margin-left: 100px;
-    }
-    
-    
-}
-@media (min-width:420.01px) and (max-width:767px){
-    .carrito{
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: auto;
-        
-    }
-    .seccion1-items{
-        flex-direction: column;
-        align-items: center;
-    }
-    img {
-        width: 75%;
-        height: 75%;
-    }
-    .titulo-carrito{
-        text-align: center;
-    }
-    button{
-        margin-left: 100px;
-    }
-}
-@media (max-width:768px){
-        .titulo-carrito{
-            text-align: center;
-        }
-        .carrito-total{
-            flex-direction: column;
-            align-items: center;
-            width: auto;
-            height: auto;
-            text-align: center;
-            transform: translateX(-200px);
-        }
-        .carrito{
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: auto; 
-        }
-        button{
-            margin-left: 100px;
-        }
-       }
-    @media(min-width:769px){
-        .carrito{
-            align-items: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        .imagenes-carrito{
-            padding: 10px 0px;
-            flex-direction: column;
-            align-items: center;
-        }
 
-        .titulo-carrito{
-            text-align: center;
-        }
-        .carrito-total{
-            flex-direction: column;
-            align-items: center;
-            width: auto;
-            height: auto;
-            text-align: center;
-            transform: translateX(-200px);
-    }
-}
 
-/* ESTILO CSS DE CATEGORIA */
-<<<<<<< HEAD
 
-=======
-.categorias12{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(116, 113, 116);
-    font-family: sans-serif;}
-    .seccion1{
-        align-items: center;
-        background-color: rgb(206, 210, 210);
-        margin: 50px;
-    }
-    .tituloseccion{
-        text-align: center;
-        font-size: 70px;
-        padding-top: 100px;
-        background-color: gray;
-    }
-    .descripcionprod{
-        display: flex;   
-        margin: 50px;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 60px;
-    }
-    .productos{
-        display: flex;
-        justify-content: space-between;
-        margin: 30px;
-        align-items: justify;
-    }
-    .remeranegra{
-        width: 350px;
-        align-items: center;
-    }
-    .shortnegro{
-        width: 350px;
-        align-items: center;  
-        height: 512px; 
-    }
-    .textotitulo{
-        font-size: 30px;
-        margin-top: 50px;
-    }
-    .buzonegro{
-        width: 375px;
-        height: 512px;
-        align-items: center;
-    }
-    .camperanegra{
-        align-items: center;
-        height: 512px;
-        width: 350px;
-    }
-    .precio{
-        font-size: 30px;
-        margin: 20px;
-    }
-    .precio1{
-        font-size: 200%;
-        text-align: center;
-    }
-    .desc{
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }
-    .botoncomprar{
-        font-size: 20px;
-        cursor: pointer;
-        margin-left: 6px;
-        margin-bottom: 5px;
-        padding: 10px;
-        border: none;
-    }   
-    .botoncomprar1{
-        font-size: 20px;
-        cursor: pointer;
-        margin-left: 6px;
-        margin-bottom: 5px;
-        padding: 10px;
-        border: none;
-    }
-    .seccion1{
-        align-items: center;
-        background-color: rgb(206, 210, 210);
-        margin: 50px;
-    }
-    .tituloseccion{
-        text-align: center;
-        font-size: 70px;
-        padding-top: 100px;
-    }
-    .descripcionprod{
-        display: flex;   
-        margin: 50px;
-        flex-direction: column;
-        align-items: center;
-        background-color: white;
-        border-radius: 60px;
-    }
-    .productos{
-        display: flex;
-        justify-content: space-between;
-        margin: 30px;
-        align-items: justify;
-    }
-    .remeranegra{
-        width: 350px;
-        align-items: center;
-    }
-    .shortnegro{
-        width: 350px;
-        align-items: center;  
-        height: 512px; 
-    }
-    .textotitulo{
-        font-size: 30px;
-        margin-top: 50px;
-    }
-    .buzonegro{
-        width: 375px;
-        height: 512px;
-        align-items: center;
-    }
-    .camperanegra{
-        align-items: center;
-        height: 512px;
-        width: 350px;
-    }
-    .precio{
-        font-size: 30px;
-        margin: 20px;
-    }
-    .precio1{
-        font-size: 200%;
-        text-align: center;
-    }
-    .desc{
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }
-    .botoncomprar{
-        font-size: 20px;
-        cursor: pointer;
-        margin-left: 6px;
-        margin-bottom: 5px;
-        padding: 10px;
-        border: none;
-    }   
-    .botoncomprar1{
-        font-size: 20px;
-        cursor: pointer;
-        margin-left: 6px;
-        margin-bottom: 5px;
-        padding: 10px;
-        border: none;
-    }
->>>>>>> 638ee9c3f837649ac57913b15f4ca60792dfa63b
-    @media(min-width:769px) and (max-width:990px){
-   
-    .precio{
-        font-size: 150%;
-    }
-    .botoncomprar{
-        font-size: 150%;
-    }
-    }            
-<<<<<<< HEAD
-=======
-    @media (max-width:768px){
-        .seccion1{
-         flex-direction: column;
-        }
-        .tituloseccion {
-         font-size: 240%;
-        }
-        .remeranegra{
-         width: 100%;
-         height: 100%;
-        }
-        .precioydesc{
-         width: 100%;
-         font-size: 50%;
-         text-align: center;
-        }
-        .textotitulo {
-         width: 70%;
-         font-size: 85%;
-         text-align: center;
-        }
-        .buzonegro{
-         width: 100%;
-         height: 60%;
-        }
-        .camperanegra{
-         width: 100%;
-         height: 60%;
-        }
-        .botoncomprar{
-     font-size: 65%;
-     margin-right: 20%;
-     }
-     .botoncomprar1{
-         font-size: 50%;
-         margin-right: 20%;
-     }
-        .precio{
-         align-items: center;
-         margin-right: 30%;
-         width: 70%;
-        }
-        .shortnegro{
-         width: 100%;
-         height: 100%;
-        }
-     }
->>>>>>> 638ee9c3f837649ac57913b15f4ca60792dfa63b
-     @media(min-width:769px) and (max-width:990px){
 
-     .precio
-     {
-         font-size: 150%;
-     }
-     .botoncomprar{
-         font-size: 150%;
-     }
-     }
-                
-                
+/* ESTILO CSS DE CATEGORIA */                
     .talle{
         font-size: 20px;
         margin: 10px;
@@ -931,7 +497,210 @@ margin-left: 350px;
     .DETALLEDEPROD{
         margin-top: 100px;
     }
-    @media (max-width:500px){
+   
+    
+   
+    
+    /* CSS DE LOGIN */
+    .bodylogin{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(116, 113, 116);
+        font-family: sans-serif;
+    }
+    .formlogin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form h1{
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid black;
+    }
+    .formlogin{
+        background-color: white;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px; 
+    }
+    .escritologin{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .emaillogin{
+    margin: 30px 0;
+    width: 80%;
+    }
+    .contraseñalogin{
+    margin: 15px 0;
+    width: 80%;
+    }
+    .inputlogin[type="submit"]{
+            width: 200%;
+            height: 50px;
+            background-color: rgb(159, 158, 158);
+            border-radius: 20px;
+            
+    }
+    .recuperarlogin{
+        color: lightskyblue;
+    
+    }
+    .nocuentalogin{
+        text-decoration: none;
+        color: blue;
+        text-align: center;
+    }
+    
+    
+    
+
+   
+    /* CSS DE RECOVER */
+
+    .bodyrecover{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(116, 113, 116);
+        font-family: sans-serif;}
+    .formrecover{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        width: 400px;
+        border: 2px solid black;
+        border-radius: 20px; 
+    }
+    .escritorecover{
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+    }
+    .h1recover{
+        text-align: center;
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid black;
+    }
+    .emailrecover{
+        margin: 30px 0;
+    }
+    .inputrecover[type="submit"]{
+        width: 250px;
+        height: 50px;
+        background-color: rgb(159, 158, 158);
+        border-radius: 20px;
+    }
+   
+
+ 
+
+/* CSS DE REGISTRO */
+.bodyregistro{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(116, 113, 116);
+    font-family: sans-serif;}
+.formregistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.escritoregistro{ 
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.formregistro{
+    background-color: white;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+.h1registro{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid black;
+ }
+.emailregistro{
+    margin: 30px 0;
+    width: 80%;
+}
+.contraseñaregistro{
+    margin: 15px 0;
+    width: 80%;
+}
+.repetircontraseñaregistro{
+    margin: 15px 0;
+    width: 80%;
+}
+.inputregistro[type="submit"]{
+    width: 150%;
+    height: 49px;
+    background-color: rgb(159, 158, 158);
+    border-radius: 20px;
+}
+
+
+
+
+
+@media (max-width:420px){    
+       .tituloseccion {
+        font-size: 240%;
+       }
+       .remeranegra{
+        width: 100%;
+        height: 100%;
+       }
+       .precioydesc{
+        width: 100%;
+        font-size: 50%;
+        text-align: center;
+       }
+       .textotitulo {
+        width: 70%;
+        font-size: 85%;
+        text-align: center;
+       }
+       .buzonegro{
+        width: 100%;
+        height: 60%;
+       }
+       .camperanegra{
+        width: 100%;
+        height: 60%;
+       }
+       .botoncomprar{
+    font-size: 65%;
+    margin-right: 20%;
+    }
+    .botoncomprar1{
+        font-size: 50%;
+        margin-right: 20%;
+    }
+       .precio{
+        align-items: center;
+        margin-right: 30%;
+        width: 70%;
+       }
+       .shortnegro{
+        width: 100%;
+        height: 100%;
+       }
+    .navbar{
+        padding: 10px 0px;
+        flex-direction: column;
+        align-items: center;
+     }
     .detalle-producto{
         width: auto;
         height: auto;
@@ -990,86 +759,103 @@ margin-left: 350px;
         margin-left: 20px;
         margin-right: 20px;
     }
-        }
-    
-    @media (min-width:500px) and (max-width:767px){
-        .detalle-producto{
-            width: auto;
-            height: auto;
+    .carrito{
+   flex-direction: column;
+    align-items: center;
+                width: auto;
+                height: auto;
+                font-size: 105%;
+            }
+    .carrito-item-detalles{
+                height: auto;
+            }
+    .carrito-precio-total{
+               flex-direction: column;
+            }
+            .titulo-carrito{
+                text-align: center;
+            }
+            .carrito-total{
+                flex-direction: column;
+                align-items: center;
+                width: auto;
+                height: auto;
+                text-align: center;
+                transform: translateX(-300px);
+            }
+            strong{
+                text-align: center;
+            }
+            .carrito-precio-total{
+                align-items: center;
+                text-align: center;
+            }
+
+        
+        .seccion1 {
             flex-direction: column;
-        }
-        .img-prod{
-            width: 75%;
-            height: 75%;
-        }
+            }
+            .productos{
+                flex-direction: column;
+                }
+            .precioydesc
+                {
+                    flex-direction: column;
+                }
+    .imagenes-carrito {
+        width: 100%;
+        height: 75%;
     }
-    
-    /* CSS DE LOGIN */
-    .bodylogin{
-        margin: 0;
-        padding: 0;
-        background-color: rgb(116, 113, 116);
-        font-family: sans-serif;
-    }
-    .formlogin{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .form h1{
-        text-align: center;
-        padding: 0 0 20px 0;
-        border-bottom: 1px solid black;
-    }
-    .formlogin{
-        background-color: white;
-        width: 400px;
-        border: 2px solid black;
-        border-radius: 20px; 
-    }
-    .escritologin{
-        display: flex; 
+    .formlogin {
         flex-direction: column;
         align-items: center;
-    }
-    .emaillogin{
-    margin: 30px 0;
-    width: 80%;
-    }
-    .contraseñalogin{
-    margin: 15px 0;
-    width: 80%;
-    }
-    .inputlogin[type="submit"]{
-            width: 200%;
-            height: 50px;
-            background-color: rgb(159, 158, 158);
-            border-radius: 20px;
-            
-    }
-    .recuperarlogin{
-        color: lightskyblue;
+        width: auto;
+        height: auto;
+        margin: auto;
+     }
+     .formrecover {
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+        height: 250px;
+     }
+     .formregistro {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+     }
+     header{
+        flex-direction: column;
+     }
+     nav{
+        padding: 10px 0px;
+     }
+     .footer
+     {
+        flex-direction: column;
+     }
     
+    button{
+        margin-left: 100px;
+    }  
+}
+
+@media (min-width:500px) and (max-width:767px){
+    .detalle-producto{
+        width: auto;
+        height: auto;
+        flex-direction: column;
     }
-    .nocuentalogin{
-        text-decoration: none;
-        color: blue;
-        text-align: center;
+    .img-prod{
+        width: 75%;
+        height: 75%;
     }
-    
-    @media (max-width:500px){
-        .formlogin {
-            flex-direction: column;
-            align-items: center;
-            width: auto;
-            height: auto;
-            margin: auto;
-         }
-         }
-    
-    @media (min-width:500px) and (max-width:767px){
+    .formregistro {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        height: fit-content;
+    }
     .formlogin {
         flex-direction: column;
         align-items: center;
@@ -1077,241 +863,93 @@ margin-left: 350px;
         height: auto;
         margin: auto;
     }
-    }
-    @media (min-width:768px){
-        .formlogin {
-            flex-direction: column;
-        align-items: center;
-        width: 400px;
-        height: 300px;
-        }
-    }
-   
-    /* CSS DE RECOVER */
-
-    .bodyrecover{
-        margin: 0;
-        padding: 0;
-        background-color: rgb(116, 113, 116);
-        font-family: sans-serif;}
-    .formrecover{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: white;
-        width: 400px;
-        border: 2px solid black;
-        border-radius: 20px; 
-    }
-    .escritorecover{
-        display: flex; 
-        flex-direction: column;
-        align-items: center;
-    }
-    .h1recover{
-        text-align: center;
-        padding: 0 0 20px 0;
-        border-bottom: 1px solid black;
-    }
-    .emailrecover{
-        margin: 30px 0;
-    }
-    .inputrecover[type="submit"]{
-        width: 250px;
-        height: 50px;
-        background-color: rgb(159, 158, 158);
-        border-radius: 20px;
-    }
-    @media (max-width:500px){
-        .formrecover {
-            flex-direction: column;
-            align-items: center;
-            width: 300px;
-            height: 250px;
-         }
-         }
-    
-    @media (min-width:500px) and (max-width:767px){
     .formrecover {
         flex-direction: column;
         align-items: center;
         width: 300px;
-height: 250px;
+        height: 250px;
     }
-}
-    @media (min-width:768px){
-    .formrecover{
-flex-direction: column;
-align-items: center;
-width: 300px;
-height: 250px;
+    .precio
+    {
+        font-size: 150%;
     }
-}
-
-/* CSS DE REGISTRO */
-.bodyregistro{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(116, 113, 116);
-    font-family: sans-serif;}
-.formregistro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.escritoregistro{ 
-    display: flex; 
-    flex-direction: column;
-    align-items: center;
-}
-.formregistro{
-    background-color: white;
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 20px; 
-}
-.h1registro{
-    text-align: center;
-    padding: 0 0 20px 0;
-    border-bottom: 1px solid black;
- }
-.emailregistro{
-    margin: 30px 0;
-    width: 80%;
-}
-.contraseñaregistro{
-    margin: 15px 0;
-    width: 80%;
-}
-.repetircontraseñaregistro{
-    margin: 15px 0;
-    width: 80%;
-}
-.inputregistro[type="submit"]{
-    width: 150%;
-    height: 49px;
-    background-color: rgb(159, 158, 158);
-    border-radius: 20px;
-}
-@media (max-width:500px){
-    .formregistro {
+    .botoncomprar{
+        font-size: 150%;
+    }
+    .seccion1 {
         flex-direction: column;
-        align-items: center;
-        width: fit-content;
-     }
-     }
-
-@media (min-width:500px) and (max-width:767px){
-.formregistro {
-    flex-direction: column;
-    align-items: center;
-    width: fit-content;
-    height: fit-content;
+        }
+        .productos{
+            flex-direction: column;
+            }
+        .precioydesc
+            {
+                flex-direction: column;
+            }
+        .botoncomprar{
+            font-size: 150%;
+        }
+        .carrito{
+            flex-direction: column;
+            align-items: center;
+            width: auto;
+            height: auto;
+            
+        }
+        .seccion1-items{
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            width: 75%;
+            height: 75%;
+        }
+        .titulo-carrito{
+            text-align: center;
+        }
+        button{
+         margin-left: 100px;
+          }
 }
-}
-@media (min-width:768px){
+@media (min-width:421px){
     .formregistro{
 flex-direction: column;
 align-items: center;
 width: 400px;
 height: 500px;
     }
-<<<<<<< HEAD
-}
-@media (max-width:768px){
-    .seccion1{
-     flex-direction: column;
-    }
-    .tituloseccion {
-     font-size: 240%;
-    }
-    .remeranegra{
-     width: 100%;
-     height: 100%;
-    }
-    .precioydesc{
-     width: 100%;
-     font-size: 50%;
-     text-align: center;
-    }
-    .textotitulo {
-     width: 70%;
-     font-size: 85%;
-     text-align: center;
-    }
-    .buzonegro{
-     width: 100%;
-     height: 60%;
-    }
-    .camperanegra{
-     width: 100%;
-     height: 60%;
-    }
-    .botoncomprar{
- font-size: 65%;
- margin-right: 20%;
- }
- .botoncomprar1{
-     font-size: 50%;
-     margin-right: 20%;
- }
-    .precio{
-     align-items: center;
-     margin-right: 30%;
-     width: 70%;
-    }
-    .shortnegro{
-     width: 100%;
-     height: 100%;
-    }
-.seccion1{
+.formrecover{
 flex-direction: column;
-}
-.tituloseccion {
-font-size: 240%;
-}
-.remeranegra{
-width: 100%;
-height: 100%;
-}
-.precioydesc{
-width: 100%;
-font-size: 50%;
-text-align: center;
-}
-.textotitulo {
-width: 70%;
-font-size: 85%;
-text-align: center;
-}
-.buzonegro{
-width: 100%;
-height: 60%;
-}
-.camperanegra{
-width: 100%;
-height: 60%;
-}
-.botoncomprar{
-font-size: 65%;
-margin-right: 20%;
-}
-.botoncomprar1{
-font-size: 50%;
-margin-right: 20%;
-}
-.precio{
 align-items: center;
-margin-right: 30%;
-width: 70%;
+width: 300px;
+height: 250px;
+    }
+.formlogin {
+flex-direction: column;
+align-items: center;
+width: 400px;
+height: 300px;
 }
-.shortnegro{
-width: 100%;
-height: 100%;
-=======
->>>>>>> 638ee9c3f837649ac57913b15f4ca60792dfa63b
+.carrito{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagenes-carrito{
+    padding: 10px 0px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-carrito{
+    text-align: center;
+}
+.carrito-total{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    height: auto;
+    text-align: center;
+    transform: translateX(-200px);
+}
 }
