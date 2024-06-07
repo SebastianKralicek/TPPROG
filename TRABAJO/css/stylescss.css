@@ -1,4 +1,13 @@
 /* CSS de header y footer y estilo de paginas*/
+p{
+    line-height: 10%;
+}
+ul
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
 body
 {
     font-family: sans-serif;
@@ -57,9 +66,10 @@ a
     justify-content: center;
     background-color: lightgrey;
 }
-.navbar a
+.navbar li
 {
     padding: 20px;
+    list-style: none;
 
 }
 
@@ -157,15 +167,7 @@ a
         padding: 10px;
         border: none;
     }   
-    .botoncomprar1
-    {
-        font-size: 20px;
-        cursor: pointer;
-        margin-left: 6px;
-        margin-bottom: 5px;
-        padding: 10px;
-        border: none;
-        }
+   
 
 
 
@@ -416,26 +418,7 @@ margin-left: 350px;
         margin: 10px;
         text-align: center;
     }
-    .talle2{
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }           
-    .talle3{
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }  
-    .talle4{
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }
-    .talle5{
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }  
+    
     
     /* CSS DE PRODUCTO */
     .detalle-producto{
