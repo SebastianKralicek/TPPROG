@@ -515,7 +515,7 @@ margin-left: 350px;
         align-items: center;
     }
     .emaillogin{
-    margin: 30px 0;
+    margin: 10px 0;
     width: 80%;
     }
     .contraseñalogin{
@@ -527,6 +527,8 @@ margin-left: 350px;
             height: 50px;
             background-color: rgb(159, 158, 158);
             border-radius: 20px;
+            margin: 5px;
+
             
     }
     .recuperarlogin{
