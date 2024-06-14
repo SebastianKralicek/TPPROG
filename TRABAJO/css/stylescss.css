@@ -628,10 +628,13 @@ margin-left: 350px;
     width: 80%;
 }
 .inputregistro[type="submit"]{
-    width: 150%;
+    padding: 0px 80px;
     height: 49px;
     background-color: rgb(159, 158, 158);
     border-radius: 20px;
+}
+.tengocuenta{
+    color: blue;
 }
 
 
