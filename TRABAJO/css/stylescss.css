@@ -101,13 +101,15 @@ a
      align-items: center;
      background-color: white;
      border-radius: 60px;
+     text-align: center;
+
     }
     .productos
     {
         display: flex;
         justify-content: space-between;
-        margin: 30px;
-        align-items: justify;
+        margin: auto;
+        align-items: center;
     }
     .remeranegra
     {
@@ -159,7 +161,7 @@ a
     {
         font-size: 20px;
         cursor: pointer;
-        margin-left: 6px;
+        margin: auto;
         margin-bottom: 5px;
         padding: 10px;
         border: none;
@@ -451,7 +453,9 @@ margin-left: 350px;
        }
        .botoncomprar{
     font-size: 65%;
-    margin-right: 20%;
+    margin-bottom: 7px;
+    margin-left: 37px;
+    align-items: center;
     }
     .botoncomprar1{
         font-size: 50%;
@@ -612,78 +616,6 @@ margin-left: 350px;
     button{
         margin-left: 100px;
     }  
-}
-
-@media (min-width:500px) and (max-width:767px){
-    .detalle-producto{
-        width: auto;
-        height: auto;
-        flex-direction: column;
-    }
-    .img-prod{
-        width: 75%;
-        height: 75%;
-    }
-    .formregistro {
-        flex-direction: column;
-        align-items: center;
-        width: fit-content;
-        height: fit-content;
-    }
-    .formlogin {
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-        height: auto;
-        margin: auto;
-    }
-    .formrecover {
-        flex-direction: column;
-        align-items: center;
-        width: 300px;
-        height: 250px;
-    }
-    .precio
-    {
-        font-size: 150%;
-    }
-    .botoncomprar{
-        font-size: 150%;
-    }
-    .seccion1 {
-        flex-direction: column;
-        }
-        .productos{
-            flex-direction: column;
-            }
-        .precioydesc
-            {
-                flex-direction: column;
-            }
-        .botoncomprar{
-            font-size: 150%;
-        }
-        .carrito{
-            flex-direction: column;
-            align-items: center;
-            width: auto;
-            height: auto;
-            
-        }
-        .seccion1-items{
-            flex-direction: column;
-            align-items: center;
-        }
-        img {
-            width: 75%;
-            height: 75%;
-        }
-        .titulo-carrito{
-            text-align: center;
-        }
-        button{
-         margin-left: 100px;
-          }
 }
 @media (min-width:421px){
     .formregistro{
