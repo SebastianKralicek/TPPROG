@@ -102,18 +102,22 @@ a
      background-color: white;
      border-radius: 60px;
      text-align: center;
+     width: 800px;
 
     }
     .productos
     {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         margin: auto;
         align-items: center;
+        text-align: center;
+    
     }
     .remeranegra
     {
-        width: 350px;
+        width: 300px;
         align-items: center;
         
     }
@@ -127,6 +131,8 @@ a
     {
         font-size: 30px;
         margin-top: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .buzonegro
     {
@@ -166,7 +172,10 @@ a
         padding: 10px;
         border: none;
     }   
-   
+    .hombresCat{
+     margin: 50px;
+        
+    }
 
 
 
@@ -576,6 +585,10 @@ margin-left: 350px;
             .productos{
                 flex-direction: column;
                 }
+            .descripcionprod{
+                flex-direction: column;
+                width: 250px;
+            }
             .precioydesc
                 {
                     flex-direction: column;
