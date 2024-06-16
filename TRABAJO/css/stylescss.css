@@ -61,13 +61,13 @@ a
 {
     display: flex;
     justify-content: center;
-    background-color: lightgrey;
+    
 }
 .navbar li
 {
     padding: 20px;
     list-style: none;
-
+    display: flex;
 }
 
     .carritologo
