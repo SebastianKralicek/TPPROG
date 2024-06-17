@@ -102,7 +102,7 @@ a
      background-color: white;
      border-radius: 60px;
      text-align: center;
-     width: 800px;
+     width: 900px;
 
     }
     .productos
@@ -172,12 +172,6 @@ a
         padding: 10px;
         border: none;
     }   
-    .hombresCat{
-     margin: 50px;
-        
-    }
-
-
 
 
 /* Carrito CSS */

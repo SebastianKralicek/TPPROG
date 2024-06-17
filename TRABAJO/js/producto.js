@@ -12,15 +12,16 @@ fetch('https://fakestoreapi.com/products')
     .then(function(data){
         console.log(data);
         for (i = 0; i < data.length; i++){
+            let prod = data[i];
     Descripcion = `
-<article class="imagen-de-producto"><img class="img-prod" src="${data[i].image}"></article>
+<article class="imagen-de-producto"><img class="img-prod" src="${prod.image}"></article>
 <section class="detalles-producto-der">
-<article class="titulo-producto1"><h1>${data[i].title}</h1></article>
-<article class="precio-productito"><p>${data[i].price}</p></article>
+<article class="titulo-producto1"><h1>${prod.title}</h1></article>
+<article class="precio-productito"><p>${prod.price}</p></article>
 <article class="talles"><p>Talle</p><input class="talle" type="submit" value="M"><input class="talle" type="submit" value="L"><input class="talle" type="submit" value="XL"></article>
-<a class="llevaralcarrito" href="./carrito.html"><button class="botoncomprar12" id="${data[i].id}">Agregar al Carrito</button></a>
+<a class="llevaralcarrito" href="./carrito.html"><button class="botoncomprar12" id="${prod.id}">Agregar al Carrito</button></a>
 <h2 class="DETALLEDEPROD">DETALLE DEL PRODUCTO</h2>
-<Article class="detalles-producto-der-abaj"><p>R${data[i].description}</p></article>
+<Article class="detalles-producto-der-abaj"><p>R${prod.description}</p></article>
 </section>
 `
 DescProd.innerHTML = Descripcion

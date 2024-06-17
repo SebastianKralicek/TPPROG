@@ -59,5 +59,3 @@ mujer.innerHTML += productMujer;
 }
 })
 
-
-            
