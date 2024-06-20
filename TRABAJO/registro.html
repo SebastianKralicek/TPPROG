@@ -5,45 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>registro</title>
-    <link rel="stylesheet" href="./registro.css">
+    <link rel="stylesheet" href="./css/stylescss.css">
 </head>
-<body>
+<body class="bodylogin">
     <header>
-        <a href="home.html" class="logo">
+        <a href="index.html" class="logo">
             <img src="../imagenes-logo/LOGO.png" alt="logo de la compania">
             <h2 class="nombre-empresa">NoGender</h2>
         </a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html" class="navlink">Home</a></li>
+                <li><a href="./categoria.html" class="navlink">Hombre</a></li>
+                <li><a href="./categoria.html" class="navlink">Mujer</a></li>
+                <li><a href="./categoria.html" class="navlink">Accesorios</a></li>
+                <li><a href="./categoria.html" class="navlink">Electronica</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="form">
-        <form action="">
-        <h1 class="h1">Regístrate</h1>
-        <div class="escrito">
-        <div class="email">
-            <input type="email" placeholder="Correo electronico">
-        </div>
-        <div class="contraseña">
-            <input type="password" placeholder="Contraseña">
-        </div>
-        <div class="repetircontraseña">
-            <input type="password" placeholder="Repetir contraseña">
-        </div>
-        <div>
-            <label>
-                Acepto terminos y condiciones
-                <input type="checkbox">
-            </label>
-        </div>
-        <input type="submit" value="Registrarme">
-        <div class="login">
-            <a href="./login.html" class="tengocuenta">Ya tengo una cuenta</a>
-        </div>
-    </div>
+    <form action="./login.html" method="get" class="formregistro">
+        <section class="escritologin">
+            <h1 class="h1recover">Regístrate</h1>
+            <article class="emailregistro">
+                <label>Email:</label>
+                <input type="email" name="emailregistro" id="emailregistro" value="" placeholder="ejemplo@email.com">
+            </article>
+            <article class="contraseñalogin">
+                <label>Contraseña:</label>
+                <input type="password" name="contraseñaregistro" id="contraseñaregistro" value="" placeholder="Ejemplo123">
+            </article>
+            <aricle class="repetircontraseñaregistro">
+                <label>Repetir Contraseña:</label>
+                <input type="password" name="repetircontraseñaregistro" value="" placeholder="repetirEjemplo123">
+            </aricle>
+            <article>
+                <label>Acepto terminos y condiciones</label>
+                <input type="checkbox" name="terminosycondiciones" value="">
+            </article>
+            <article>
+                <button type="submit" class="inputlogin">Registrarme</button>
+            </article>
+            <article>
+                <a href="./login.html" class="tengocuenta">Ya tengo una cuenta</a>
+            </article>
+        </section>
     </form>
-    </div>
     <footer class="footer">
         <span class="nombresintegrantes">Sebastian Kralicek</span>
         <span class="nombresintegrantes">Benjamin Haymes</span>
         <span class="nombresintegrantes">Tomas Cataldi</span>
      </footer>
+<script src="./js/registro.js"></script>
 </body>
 </html>

@@ -4,18 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hombres</title>
-    <link rel="stylesheet" href="./categoria.css">
+    <link rel="stylesheet" href="./css/stylescss.css">
 </head>
-<body> 
+<body class="categorias12"> 
     <header>
-        <a href="home.html" class="logo">
-            <img src="../imagenes-logo/LOGO.png" alt="logo de la compania">
+        <a href="index.html" class="logo">
+            <img src="../imagenes-logo/LOGO.png" alt="logo de la compania" class="carritologo">
             <h2 class="nombre-empresa">NoGender</h2>
         </a>
         <nav>
+            <ul class="navbar">
+                <li><a href="index.html" class="navlink">Home</a></li>
+                <li><a href="./categoria.html" class="navlink">Hombre</a></li>
+                <li><a href="./categoria.html" class="navlink">Mujer</a></li>
+                <li><a href="./categoria.html" class="navlink">Accesorios</a></li>
+                <li><a href="./categoria.html" class="navlink">Electronica</a></li>
+            </ul>
+        </nav>
+        <nav>
             <a href="login.html" class="navlink">Login</a>
             <a href="registro.html" class="navlink">Registro</a>
-            <a href="carrito.html" class="navlink"><img src="../imagenes-logo/CARRITO.png" class="carrito"></a>
+            <a href="carrito.html" class="navlink"><img src="../imagenes-logo/CARRITO.png" class="carritologo"></a>
           </nav>
     </header>
     <section class="seccion1">
@@ -27,10 +36,10 @@
         <section class="precioydesc">
             <article class="desc">Remera Negra 100% de Algodon</article>
             <article class="talle">
-                <input type="submit" value="M">
-                <input type="submit" value="L">
-                <input type="submit" value="XL">
-                <input type="submit" value="XXL">
+                <input type="submit" value="M" class="inputcategoria">
+                <input type="submit" value="L" class="inputcategoria">
+                <input type="submit" value="XL" class="inputcategoria">
+                <input type="submit" value="XXL" class="inputcategoria">
             </article>
             <article class="precio1"><b>$17000</b></article>
             <article class="precio">
@@ -45,7 +54,7 @@
             <img src="../imagenes-logo/buzonegro.png" class="buzonegro">
             <section class="precioydesc">
                 <article class="desc">Buzo Finito Negro Comodo</article>
-                <article class="talle2">
+                <article class="talle">
                     <input type="submit" value="M">
                     <input type="submit" value="L">
                     <input type="submit" value="XL">
@@ -63,7 +72,7 @@
             <img src="../imagenes-logo/CamperaNegra.png" class="camperanegra">
             <section class="precioydesc">
                 <article class="desc">Campera Acolchada Super Comoda</article>
-                <article class="talle3">
+                <article class="talle">
                     <input type="submit" value="M">
                     <input type="submit" value="L">
                     <input type="submit" value="XL">
@@ -85,7 +94,7 @@
                 <img src="../imagenes-logo/SHORTS.png" class="shortnegro">
         <section class="precioydesc">
             <article class="desc">Short Negro Deportivo Dry-Fit</article>
-            <article class="talle4">
+            <article class="talle">
                 <input type="submit" value="M">
                 <input type="submit" value="L">
                 <input type="submit" value="XL">
@@ -104,7 +113,7 @@
             <img src="../imagenes-logo/PANTALON.png" class="buzonegro">
             <section class="precioydesc">
                 <article class="desc">Pantalon Cargo Negro</article>
-                <article class="talle5">
+                <article class="talle">
                     <input type="submit" value="M">
                     <input type="submit" value="L">
                     <input type="submit" value="XL">
@@ -122,7 +131,7 @@
             <img src="../imagenes-logo/Zapatos.png" class="camperanegra">
             <section class="precioydesc">
                 <article class="desc">Zapato Clasico Negro de Cuero</article>
-                <article class="talle5">
+                <article class="talle">
                     <input type="submit" value="40">
                     <input type="submit" value="41">
                     <input type="submit" value="42">
@@ -142,5 +151,6 @@
             <span class="nombresintegrantes">Benjamin Haymes</span>
             <span class="nombresintegrantes">Tomas Cataldi</span>
          </footer>
+<script src="./js/categoria.js"></script>
 </body>
 </html>

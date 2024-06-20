@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recover</title>
-    <link rel="stylesheet" href="./recover.css">
+    <link rel="stylesheet" href="./css/stylescss.css">
 </head>
-<body>
+<body class="bodylogin">
     <header>
-        <a href="home.html" class="logo">
+        <a href="index.html" class="logo">
             <img src="../imagenes-logo/LOGO.png" alt="logo de la compania">
             <h2 class="nombre-empresa">NoGender</h2>
         </a>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html" class="navlink">Home</a></li>
+                <li><a href="./categoria.html" class="navlink">Hombre</a></li>
+                <li><a href="./categoria.html" class="navlink">Mujer</a></li>
+                <li><a href="./categoria.html" class="navlink">Accesorios</a></li>
+                <li><a href="./categoria.html" class="navlink">Electronica</a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="form">
-        <form action="">
-        <h1 class="h1">Recuperar contraseña</h1>
-        <div class="escrito">
-        <div class="email">
-            <input type="email" placeholder="Correo electronico">
-        </div>
-        <label class="check">
-            Quiero recuperar mi contraseña
-            <input type="checkbox">
-        </label>
-        <div class="recuperar">
-            <input type="submit" value="Recuperar">
-        </div>
-        </div>
-        </form>
-    </div>
-    <footer class="footer">
+    <form action="./index.html" method="get" class="formrecover">
+        <section class="escritologin">
+            <h1 class="h1recover">Recuperar contraseña</h1>
+            <article class="emailrecover">
+                <label for="email">Email:</label>
+                <input type="email" name="emailrecover" value="" placeholder="ejemplo@email.com">
+            </article>
+            <article class="check">
+                <label>Quiero recuperar mi contraseña</label>
+                <input type="checkbox" name="recuperar contraseña" value="quiere recuperar su contraseña">
+            </article>
+            <article>
+                <button type="submit" class="inputlogin">Recuperar</button>
+            </article>
+        </section>
+    </form>
+   <footer class="footer">
         <span class="nombresintegrantes">Sebastian Kralicek</span>
         <span class="nombresintegrantes">Benjamin Haymes</span>
         <span class="nombresintegrantes">Tomas Cataldi</span>
      </footer>
+<script src="./js/recover.js"></script>
 </body>
 </html>
