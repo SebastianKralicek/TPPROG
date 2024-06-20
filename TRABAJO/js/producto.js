@@ -26,8 +26,28 @@ DetalleProd.innerHTML = `
 <Article class="detalles-producto-der-abaj"><p>${data.description}</p></Article>
 `
 
-})
+// BOTON AGREGAR A CARRITO (EL ID PARA QUE QUEDE)
+let AgregarCarrito = document.querySelector(".botoncomprar12")
+let DatosLocal = localStorage.getItem("DatosDelLocal")
+let IDs = {id: id} 
 
+AgregarCarrito.addEventListener("click", function(e){
+        e.preventDefault
+if(DatosLocal == null){
+let array = []
+        array.push(IDs)
+let DatosAString = JSON.stringify(array);
+localStorage.setItem("DatosDelLocal", DatosAString);
+} 
+else{
+    let array = JSON.parse(DatosLocal);
+    array.push(IDs)
+let DatosAString = JSON.stringify(array);    
+localStorage.setItem("DatosDelLocal", DatosAString);
+}
+console.log(localStorage);
+})
+})
 .catch(function(err){
         console.log(err);
  })
