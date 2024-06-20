@@ -21,13 +21,13 @@ DetalleProd.innerHTML = `
 <article class="titulo-producto1"><h1>${data.title}</h1></article>
 <a href ="./categoria.html" class="categoriaJS"><p>${data.category}</p></a>
 <article class="precio-productito"><p class="precioJS">$${data.price}</p></article>
-<a class="llevaralcarrito" href="./carrito.html"><button class="botoncomprar12">Agregar al Carrito</button></a>
+<a id="Comprar" class="llevaralcarrito" href="./carrito.html"><button class="botoncomprar12">Agregar al Carrito</button></a>
 <h2 class="DETALLEDEPROD">DETALLE DEL PRODUCTO</h2>
 <Article class="detalles-producto-der-abaj"><p>${data.description}</p></Article>
 `
 
 // BOTON AGREGAR A CARRITO (EL ID PARA QUE QUEDE)
-let AgregarCarrito = document.querySelector(".botoncomprar12")
+let AgregarCarrito = document.querySelector("#Comprar")
 let DatosLocal = localStorage.getItem("DatosDelLocal")
 let IDs = {id: id} 
 
