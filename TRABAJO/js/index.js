@@ -17,17 +17,21 @@ product = `
     <section class="productos">
         <article class="descripcionprod">
             <h3 class="textotitulo">${data[i].title}</h3>   
-            <img src="${data[i].image}" class="remeranegra">
+            <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
     <section class="precioydesc">
         <p class="precio1"><b>$${data[i].price}</b></p>
         <article class="precio">
-            <a href="producto.html"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
+            <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
         </article>
     </section>
         </article> `
 hombre.innerHTML += product;
     }
-}) 
+})
+.catch(function(err){
+    console.log(err);
+})
+
 
 /*SECCION DE MUJERES*/
 
@@ -47,17 +51,21 @@ productMujer = `
         <section class="productos">
             <article class="descripcionprod">
                 <h3 class="textotitulo">${data[i].title}</h3>   
-                <img src="${data[i].image}" class="remeranegra">
+               <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
         <section class="precioydesc">
             <p class="precio1"><b>$${data[i].price}</b></p>
             <article class="precio">
-                <a href="producto.html"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
+                <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
 </article>
 `
 mujer.innerHTML += productMujer;
-
 }
 })
+
+.catch(function(err){
+    console.log(err);
+})
+
 
 // SECCION JOYERIA //
             
@@ -77,11 +85,11 @@ productJoyas =
 <section class="productos">
  <article class="descripcionprod">
             <h3 class="textotitulo">${data[i].title}</h3>   
-            <img src="${data[i].image}" class="remeranegra">
+          <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
     <section class="precioydesc">
         <p class="precio1"><b>$${data[i].price}</b></p>
         <article class="precio">
-            <a href="producto.html"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
+            <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
         </article>
 </section>
 </article>
@@ -89,4 +97,8 @@ productJoyas =
 joyas.innerHTML += productJoyas;
 
 }
+})
+
+.catch(function(err){
+    console.log(err);
 })

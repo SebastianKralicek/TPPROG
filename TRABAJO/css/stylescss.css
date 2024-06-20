@@ -254,11 +254,6 @@ margin-left: 350px;
     width: 20px;
 }
 /* ESTILO CSS DE CATEGORIA */                
-    .talle{
-        font-size: 20px;
-        margin: 10px;
-        text-align: center;
-    }   
     /* CSS DE PRODUCTO */
     .detalle-producto{
         margin: 40px;
@@ -266,12 +261,15 @@ margin-left: 350px;
         display: flex;
     }
     .img-prod{
-        padding: 30px;
+        padding: 2px;
         background-color: grey;
-        border-radius: 500px;
+        border-radius: 200px;
+        width: 550px;
+        
     }
     .imagen-de-producto{
         padding: 30px;
+    
     }
     .titulo-producto1{
         display: flex;
@@ -279,6 +277,10 @@ margin-left: 350px;
         margin-left: auto;
         padding: 30px;
         font-size: 30px;
+    }
+    .categoriaJS{
+      font-size: 30px;
+      
     }
     .detalles-producto-der{
         display: flex;
@@ -289,12 +291,13 @@ margin-left: 350px;
         flex-direction: column;
     }
     .precio-productito{
-        margin-right: auto;
-        padding: 10px;
         font-size: 50px;
-        background-color: white;
+        margin: auto;
+        background-color:grey;
         border-radius: 10px;
-
+    }
+    .precioJS{
+        margin: 10px;
     }
     .desc-prod-der{
         align-items: center;
@@ -304,6 +307,7 @@ margin-left: 350px;
         height: 50px;
         background-color: rgb(159, 158, 158);
         border-radius: 20px;
+        margin: auto;
     }
     .botoncomprar12{
         background-color: rgb(159, 158, 158);
@@ -313,17 +317,9 @@ margin-left: 350px;
         margin-left: auto;
         margin-right: auto;
     }
-    .talles{
-       margin-top: 70px;
-       margin-bottom: 70px;
-       font-size: 25px;
-       text-align: center;
-    }
-    .talle{
-        font-size: 15px;
-    }
     .DETALLEDEPROD{
         margin-top: 100px;
+        text-align: center;
     }
    
     
@@ -502,13 +498,6 @@ margin-left: 350px;
         font-size: 150%;
         margin: auto;
     }
-    .talles{
-        font-size: 150%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .llevaralcarrito{
         margin-left: auto;
         margin-right: auto;
@@ -623,7 +612,11 @@ margin-left: 350px;
     button{
         margin-left: 100px;
     }  
+    .imagen-de-producto{
+        text-align: center;
+    }
 }
+
 @media (min-width:421px){
     .formregistro{
 flex-direction: column;
