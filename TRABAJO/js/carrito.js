@@ -16,7 +16,7 @@ if (DataLocal == null ){
 }
 else{
     for (i = 0; i < DataParse.length; i++)
-    fetch(`https://fakestoreapi.com/products/"${DataParse[i].id}`) //Parecido a Producto
+    fetch(`https://fakestoreapi.com/products/${DataParse[i].id}`) //Parecido a Producto
     .then(function(res){
         return res.json();
 })
