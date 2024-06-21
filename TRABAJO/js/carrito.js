@@ -2,7 +2,7 @@ let CarritoEntero = document.querySelector(".seccion1-items")
 let FotoProducto = document.querySelector(".carrito-item")
 let DetallesDelItem = document.querySelector('.carrito-item-detalles')
 
-let DataLocal = localStorage.getItem("DatosLocalStorage")
+let DataLocal = localStorage.getItem("DatosDelLocal")
 
 let DataParse = JSON.parse(DataLocal)
 console.log(DataLocal);
@@ -11,7 +11,7 @@ console.log(DataParse);
 
 if (DataLocal == null ){
     CarritoEntero.innerHTML = `
-    <h3> No tienes productos aqui </h3>
+    <h3 class="NoProducts"> No tienes productos aqui </h3>
     `
 }
 else{
@@ -22,7 +22,7 @@ else{
 })
 .then(function(data){
     console.log(data);
-let CarritoEntero = `
+let FotoProducto = `
     <article class="carrito-item"> 
         <img class="imagenes-carrito" src="${data[i].image}" alt="" width="200px">
         <article class="carrito-item-detalles"> 
@@ -32,7 +32,7 @@ let CarritoEntero = `
         </article>
     </article>
 `
-FotoProducto.innerHTML += CarritoEntero;
+DetallesDelItem.innerHTML += FotoProducto;
 })
 .catch(function(err){
     console.log(err);

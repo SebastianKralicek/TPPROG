@@ -12,7 +12,7 @@ else if (MailUser == null){
      Registro.style.display = "block"
 }
 else {
-    document.querySelector("#MensajeMail").innerHTML = "Bienvenido: " + MailUser + `<ul class ="LoginyRegistro"><li><a href = "#" id="LogOut" class="navlink">Logout</a></article></ul>`
+    document.querySelector("#MensajeMail").innerHTML = "Bienvenido: " + MailUser + `<ul class ="LoginyRegistro"><li class="LogO"><a href = "#" id="LogOut" class="navlink">Logout</a></li></article></ul>`
     Loginn.style.display = "none"
     Registro.style.display = "none"
 }
