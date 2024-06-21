@@ -1,9 +1,9 @@
 document.querySelector('form').addEventListener('submit', function(event) {
     event.preventDefault();
     
-    const email = document.querySelector('input[name="emailrecover"]').value.trim();
-    const checkbox = document.querySelector('input[name="recoverPassword"]').checked;
-    const form = event.target;
+    let email = document.querySelector('input[name="emailrecover"]').value.trim();
+    let checkbox = document.querySelector('input[name="recoverPassword"]').checked;
+    let form = event.target;
     
     let messagesContainer = document.querySelector('.messages');
     messagesContainer.innerHTML = ''; // Limpiar mensajes anteriores
