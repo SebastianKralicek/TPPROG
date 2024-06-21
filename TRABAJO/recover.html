@@ -22,27 +22,27 @@
             </ul>
         </nav>
     </header>
-    <form action="./index.html" method="get" class="formrecover">
-        <section class="escritologin">
+    <article class="form-container">
+        <form class="formrecover">
             <h1 class="h1recover">Recuperar contraseña</h1>
             <article class="emailrecover">
                 <label for="email">Email:</label>
                 <input type="email" name="emailrecover" value="" placeholder="ejemplo@email.com">
             </article>
             <article class="check">
-                <label>Quiero recuperar mi contraseña</label>
-                <input type="checkbox" name="recuperar contraseña" value="quiere recuperar su contraseña">
+                <label for="checkbox">Quiero recuperar mi contraseña</label>
+                <input type="checkbox" name="recoverPassword" id="checkbox">
             </article>
-            <article>
-                <button type="submit" class="inputlogin">Recuperar</button>
-            </article>
-        </section>
-    </form>
-   <footer class="footer">
+            <button type="submit" class="inputlogin">Recuperar</button>
+            <article class="messages"></article>
+            <a href="./login.html" class="login-link" style="display: none;">Ir al login</a>
+        </form>
+    </article>
+    <footer class="footer">
         <span class="nombresintegrantes">Sebastian Kralicek</span>
         <span class="nombresintegrantes">Benjamin Haymes</span>
         <span class="nombresintegrantes">Tomas Cataldi</span>
-     </footer>
-<script src="./js/recover.js"></script>
+    </footer>
+    <script src="./js/recover.js"></script>
 </body>
 </html>
