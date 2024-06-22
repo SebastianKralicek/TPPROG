@@ -368,8 +368,10 @@ margin-left: 350px;
     width: 80%;
     }
     .contraseñalogin{
-    margin: 15px 0;
+    margin: 30px 0;
+    margin-top: 10px;
     width: 80%;
+
     }
     .inputlogin[type="submit"]{
             padding: 0px 80px;
@@ -428,6 +430,7 @@ margin-left: 350px;
 }
 .emailregistro{
     margin: 30px 0;
+    margin-top: 10px;
     width: 80%;
 }
 .repetircontraseñaregistro{
@@ -436,6 +439,10 @@ margin-left: 350px;
 }
 .tengocuenta{
     color: blue;
+    cursor: pointer;
+
+
+
 }
 
 /* CSS DE RECOVER */
@@ -466,8 +473,20 @@ margin-left: 350px;
     text-decoration: underline;
 }
 
+/* CSS DE REGISTRO */
 
+.h1registro{
+    text-align: center;
+    padding: 0 0 35px 0;
+    border-bottom: 1px solid black;
+    width: 136%;
+}
 
+.error-message2{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
 
 @media (max-width:420px){    
        .tituloseccion {
@@ -667,7 +686,7 @@ margin-left: 350px;
 flex-direction: column;
 align-items: center;
 width: 400px;
-height: 500px;
+height: 450px;
     }
 .formrecover{
 flex-direction: column;
