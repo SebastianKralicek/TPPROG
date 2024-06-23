@@ -367,6 +367,7 @@ margin-left: 350px;
     margin: 10px 0;
     width: 80%;
     }
+
     .contraseñalogin{
     margin: 30px 0;
     margin-top: 10px;
@@ -417,34 +418,6 @@ margin-left: 350px;
     }
    
 
-.formregistro{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: white;
-    width: 400px;
-    border: 2px solid black;
-    border-radius: 20px; 
-}
-.emailregistro{
-    margin: 30px 0;
-    margin-top: 10px;
-    width: 80%;
-}
-.repetircontraseñaregistro{
-    margin: 15px 0;
-    width: 80%;
-}
-.tengocuenta{
-    color: blue;
-    cursor: pointer;
-
-
-
-}
-
 /* CSS DE RECOVER */
 .emailrecover {
     margin-bottom: 15px;
@@ -475,6 +448,11 @@ margin-left: 350px;
 
 /* CSS DE REGISTRO */
 
+.errormensaje{
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
 .h1registro{
     text-align: center;
     padding: 0 0 35px 0;
@@ -482,11 +460,57 @@ margin-left: 350px;
     width: 136%;
 }
 
-.error-message2{
-    color: red;
-    text-align: center;
-    margin-top: 10px;
+.formregistro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px; 
 }
+.emailregistro{
+    margin: 30px 0;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.contraseñaregistro{
+    margin: 30px 0;
+    margin-top: 10px;
+    width: 80%;
+
+}
+
+.repetircontraseñaregistro{
+    margin: 15px 0;
+    width: 80%;
+}
+
+.terminosycondiciones{
+height: 30px;
+}
+
+.inputregister[type="submit"]{
+    padding: 0px 80px;
+    height: 50px;
+    background-color: rgb(159, 158, 158);
+    border-radius: 20px;
+    margin: 0px;
+    cursor: pointer;        
+}
+
+.tengocuenta{
+    color: blue;
+    cursor: pointer;
+
+
+
+}
+
+
 
 @media (max-width:420px){    
        .tituloseccion {
