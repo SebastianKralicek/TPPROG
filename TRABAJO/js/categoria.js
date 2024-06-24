@@ -24,11 +24,10 @@ fetch(`https://fakestoreapi.com/products/category/${categoria}`)
             <article class="desc">${data[i].description}</article>
             <article class="precio1"><b>$${data[i].price}</b></article>
             <article class="precio">
-                <a href="producto.html"><button class="botoncomprar">Saber Mas</button></a> 
+                <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
             </article>
             </section> 
             </article>
-        <a href="carrito.html" class="clickcompra"></a>
                 `
     }
        
@@ -38,4 +37,4 @@ fetch(`https://fakestoreapi.com/products/category/${categoria}`)
 })
 
 let titulocat = document.querySelector('.tituloseccion')
-titulocat.innerHTML = `<h2 class="tituloseccion">${categoria}</h2>`
+titulocat.innerHTML = `<h2>${categoria}</h2>`
