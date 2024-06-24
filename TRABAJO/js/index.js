@@ -20,7 +20,7 @@ product = `
             <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
     <section class="precioydesc">
         <p class="precio1"><b>$${data[i].price}</b></p>
-        <p class="descripcionprod">${data[i].description}</p>
+        <p class="desc">${data[i].description}</p>
         <article class="precio">
             <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
         </article>
@@ -55,7 +55,7 @@ productmujer = `
                <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
         <section class="precioydesc">
             <p class="precio1"><b>$${data[i].price}</b></p>
-            <p class="descripcionprod">${data[i].description}</p>
+            <p class="desc">${data[i].description}</p>
             <article class="precio">
                 <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
 </article>
@@ -90,7 +90,7 @@ productjoyas =
           <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
     <section class="precioydesc">
         <p class="precio1"><b>$${data[i].price}</b></p>
-        <p class="descripcionprod">${data[i].description}</p>
+        <p class="desc">${data[i].description}</p>
         <article class="precio">
             <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
         </article>

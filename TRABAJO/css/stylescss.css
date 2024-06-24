@@ -127,30 +127,12 @@ a
         align-items: center;
         
     }
-    .shortnegro
-    {
-        width: 350px;
-        align-items: center;  
-        height: 512px; 
-    }
     .textotitulo
     {
         font-size: 30px;
         margin-top: 50px;
         margin-left: 20px;
         margin-right: 20px;
-    }
-    .buzonegro
-    {
-        width: 375px;
-        height: 512px;
-        align-items: center;
-    }
-    .camperanegra
-    {
-        align-items: center;
-        height: 512px;
-        width: 350px;
     }
     .precio
     {
@@ -223,30 +205,6 @@ font-family: sans-serif;
     display: flex;
 }
 
-.plus-1{
-        cursor: pointer;
-        border: 1px solid #000;
-        border-radius: 50%;
-        margin-left: 5px;
-        padding: 2px;
-    }
-
-    .carrito-item-cantidad{
-        margin-left: 5px;
-        width: 20px;
-    }
-    .minus-1{
-    cursor: pointer;
-    border: 1px solid #000;
-    border-radius: 50%;
-    margin-left: 3px;
-    padding: 2px;
-    }
-.btn-eliminar-1{
-    cursor: pointer;
-    padding: 10px;
-    margin-left: -5px;
-}
     /* esta es la seccion del pago */
 
 .carrito-total{
@@ -676,10 +634,18 @@ label4 {
             .descripcionprod{
                 flex-direction: column;
                 width: 250px;
+                align-items: center;
+            }
+            .desc{
+                flex-direction: column;
+                align-items: center;
+                margin: auto;
+                font-size: 10px;
             }
             .precioydesc
                 {
                     flex-direction: column;
+                    margin: auto;
                 }
     .imagenes-carrito {
         width: 100%;
