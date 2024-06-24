@@ -20,6 +20,7 @@ product = `
             <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
     <section class="precioydesc">
         <p class="precio1"><b>$${data[i].price}</b></p>
+        <p class="descripcionprod">${data[i].description}</p>
         <article class="precio">
             <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
         </article>
@@ -36,7 +37,7 @@ hombre.innerHTML += product;
 /*SECCION DE MUJERES*/
 
 let mujer = document.querySelector(".MujeresCat")
-let productMujer = ""
+let productmujer = ""
 
 fetch('https://fakestoreapi.com/products/category/women\'s clothing')
             .then(function(response){
@@ -46,7 +47,7 @@ fetch('https://fakestoreapi.com/products/category/women\'s clothing')
 .then(function(data){
     console.log(data);
 for (i = 0; i < data.length; i++){
-productMujer = `
+productmujer = `
 <article class = "MujeresCat">
         <section class="productos">
             <article class="descripcionprod">
@@ -54,11 +55,12 @@ productMujer = `
                <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
         <section class="precioydesc">
             <p class="precio1"><b>$${data[i].price}</b></p>
+            <p class="descripcionprod">${data[i].description}</p>
             <article class="precio">
                 <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
 </article>
 `
-mujer.innerHTML += productMujer;
+mujer.innerHTML += productmujer;
 }
 })
 
@@ -70,7 +72,7 @@ mujer.innerHTML += productMujer;
 // SECCION JOYERIA //
             
 let joyas = document.querySelector(".JoyeriaCat")
-let productJoyas = ""
+let productjoyas = ""
 fetch('https://fakestoreapi.com/products/category/jewelery')
             .then(function(response){
              return response.json()
@@ -79,7 +81,7 @@ fetch('https://fakestoreapi.com/products/category/jewelery')
 .then(function(data){
 console.log(data);
 for (i = 0; i < data.length; i++){
-productJoyas = 
+productjoyas = 
 `
 <article class="JoyasCat">
 <section class="productos">
@@ -88,13 +90,14 @@ productJoyas =
           <a href="./producto.html?id=${data[i].id}"><img src="${data[i].image}" class="remeranegra"></a>
     <section class="precioydesc">
         <p class="precio1"><b>$${data[i].price}</b></p>
+        <p class="descripcionprod">${data[i].description}</p>
         <article class="precio">
             <a href="./producto.html?id=${data[i].id}"><button class="botoncomprar" id="${data[i].id}">Saber Mas</button></a>
         </article>
 </section>
 </article>
 `
-joyas.innerHTML += productJoyas;
+joyas.innerHTML += productjoyas;
 
 }
 })

@@ -1,23 +1,23 @@
-let FormularioLogin = document.querySelector("#LoginForm")
-let LoginEmail = document.querySelector("#LoginEmail")
-let LoginContrasena = document.querySelector("#LoginContrasena")
+let formulariologin = document.querySelector("#LoginForm")
+let loginemail = document.querySelector("#LoginEmail")
+let logincontrasena = document.querySelector("#LoginContrasena")
 
-FormularioLogin.addEventListener('submit', function(e){
+formulariologin.addEventListener('submit', function(e){
     e.preventDefault()
-    if(LoginEmail.value == ""){
+    if(loginemail.value == ""){
         alert("Por favor complete el campo email")
     }
-    else if(LoginContrasena.value == ""){
+    else if(logincontrasena.value == ""){
         alert("Por favor complete el campo contraseña")
     }
-    else if(LoginContrasena.value.length < 6){
+    else if(logincontrasena.value.length < 6){
         alert("La contraseña debe tener al menos 6 caracteres")
     return false;
 }
     else{
         alert("Felicidades")
-        FormularioLogin.submit()
-        localStorage.setItem("MailsUsuarios", LoginEmail.value);
+        formulariologin.submit()
+        localStorage.setItem("MailsUsuarios", loginemail.value);
 
     }
 })

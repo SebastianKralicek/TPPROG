@@ -21,7 +21,7 @@ console.log(category);
         console.log(data);
 especifico = <section class= "contenedoresIndexuno">
         
-         for (let i=0; i<data.length; i++){
+         for (let i=0; i <data.length;> i++){
             let stock = data [i];
             console.log(stock);
             console.log(stock.title);
@@ -50,4 +50,5 @@ especifico = <section class= "contenedoresIndexuno">
     )
     .catch (function(err){
         console.log(err);
+
     })

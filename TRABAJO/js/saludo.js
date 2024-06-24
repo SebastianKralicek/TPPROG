@@ -1,18 +1,18 @@
-let MailUser = localStorage.getItem("MailsUsuarios")
+let mailuser = localStorage.getItem("MailsUsuarios")
 let header = document.querySelector("header")
-let Loginn = document.querySelector("#Loginn")
-let Registro = document.querySelector("#Register")
+let loginn = document.querySelector("#Loginn")
+let registro = document.querySelector("#Register")
 
-if (MailUser == ""){
-     Loginn.style.display = "block"
-     Registro.style.display = "block"
+if (mailuser == ""){
+     loginn.style.display = "block"
+     registro.style.display = "block"
 }
-else if (MailUser == null){
-    Loginn.style.display = "block"
-     Registro.style.display = "block"
+else if (mailuser == null){
+    loginn.style.display = "block"
+     registro.style.display = "block"
 }
 else {
-    document.querySelector("#MensajeMail").innerHTML = "Bienvenido: " + MailUser + `<ul class ="LoginyRegistro"><li class="LogO"><a href = "#" id="LogOut" class="navlink">Logout</a></li></article></ul>`
-    Loginn.style.display = "none"
-    Registro.style.display = "none"
+    document.querySelector("#MensajeMail").innerHTML = "Bienvenido: " + mailuser + `<ul class ="LoginyRegistro"><li class="LogO"><a href = "#" id="LogOut" class="navlink">Logout</a></li></article></ul>`
+    loginn.style.display = "none"
+    registro.style.display = "none"
 }
