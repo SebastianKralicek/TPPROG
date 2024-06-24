@@ -38,4 +38,4 @@ fetch(`https://fakestoreapi.com/products/category/${categoria}`)
 })
 
 let titulocat = document.querySelector('.tituloseccion')
-titulocat.innerHTML = `<h2>${categoria}</h2>`
+titulocat.innerHTML = `<h2 class="tituloseccion">${categoria}</h2>`
