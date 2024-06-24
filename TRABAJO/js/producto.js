@@ -14,8 +14,8 @@ fetch(`https://fakestoreapi.com/products/${id}`)
             
 .then(function(data){
         console.log(data);
-let DetalleProd = document.querySelector(".detalle-producto")
-DetalleProd.innerHTML = `
+let detalleprod = document.querySelector(".detalle-producto")
+detalleprod.innerHTML = `
 <article class="imagen-de-producto"><img class="img-prod" src="${data.image}"></article>
 <section class="detalles-producto-der">
 <article class="titulo-producto1"><h1>${data.title}</h1></article>
@@ -27,23 +27,23 @@ DetalleProd.innerHTML = `
 `
 
 // BOTON AGREGAR A CARRITO (EL ID PARA QUE QUEDE)
-let AgregarCarrito = document.querySelector("#Comprar")
-let DatosLocal = localStorage.getItem("DatosDelLocal")
-let IDs = {id: id} 
+let agregarcarrito = document.querySelector("#Comprar")
+let datoslocal = localStorage.getItem("DatosDelLocal")
+let ids = {id: id} 
 
-AgregarCarrito.addEventListener("click", function(e){
+agregarcarrito.addEventListener("click", function(e){
         e.preventDefault
-if(DatosLocal == null){
+if(datoslocal == null){
 let array = []
-        array.push(IDs)
-let DatosAString = JSON.stringify(array);
-localStorage.setItem("DatosDelLocal", DatosAString);
+        array.push(ids)
+let datosastring = JSON.stringify(array);
+localStorage.setItem("DatosDelLocal", datosastring);
 } 
 else{
-    let array = JSON.parse(DatosLocal);
-    array.push(IDs)
-let DatosAString = JSON.stringify(array);    
-localStorage.setItem("DatosDelLocal", DatosAString);
+    let array = JSON.parse(datoslocal);
+    array.push(ids)
+let datosastring = JSON.stringify(array);    
+localStorage.setItem("DatosDelLocal", datosastring);
 }
 console.log(localStorage);
 })

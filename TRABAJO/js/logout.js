@@ -1,16 +1,17 @@
-let Login = document.querySelector("#Loginn")
-let MsjBienvenida = document.querySelector("#MensajeMail")
+let login = document.querySelector("#Loginn")
+let msjbienvenida = document.querySelector("#MensajeMail")
+let registroo = document.querySelector("#Register")
 
-let LinkLogout = document.querySelector(".LogO")
+let linklogout = document.querySelector(".LogO")
 
-LinkLogout.addEventListener("click", function(e){
+linklogout.addEventListener("click", function(e){
     e.preventDefault
     localStorage.removeItem("MailsUsuarios")
 
-LinkLogout.style.display = "none";
-MsjBienvenida.style.display = "none";
-Login.style.display = "block";
-Registro.style.display = "block";
+linklogout.style.display = "none";
+msjbienvenida.style.display = "none";
+login.style.display = "block";
+registroo.style.display = "block";
 
 })
 

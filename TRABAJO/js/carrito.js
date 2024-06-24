@@ -1,29 +1,29 @@
-let CarritoEntero = document.querySelector(".carrito-item")
-let FotoProducto = ""
-let FinalizarCompra = document.querySelector("#Pagar")
+let carritoentero = document.querySelector(".carrito-item")
+let fotoproducto = ""
+let finalizarcompra = document.querySelector("#Pagar")
 
-let DataLocal = localStorage.getItem("DatosDelLocal")
+let datalocal = localStorage.getItem("DatosDelLocal")
 
-let DataParse = JSON.parse(DataLocal)
-console.log(DataLocal);
-console.log(DataParse);
+let dataparse = JSON.parse(datalocal)
+console.log(datalocal);
+console.log(dataparse);
 
 
 
-if (DataLocal == null ){
-    CarritoEntero.innerHTML = `
+if (datalocal == null ){
+    carritoentero.innerHTML = `
     <h3 class="NoProducts"> No tienes productos aqui </h3>
     `
 }
 else{
-    for (i = 0; i < DataParse.length; i++){
-    fetch(`https://fakestoreapi.com/products/${DataParse[i].id}`) //Parecido a Producto
+    for (i = 0; i < dataparse.length; i++){
+    fetch(`https://fakestoreapi.com/products/${dataparse[i].id}`) //Parecido a Producto
     .then(function(res){
         return res.json();
 })
 .then(function(data){
     console.log(data);
-let FotoProducto = `
+let fotoproducto = `
         <img class="imagenes-carrito" src="${data.image}" alt="" width="200px">
         <article class="carrito-item-detalles"> 
             <p class="carrito-item-titulo-1">${data.title}</p>
@@ -31,13 +31,13 @@ let FotoProducto = `
             <section class="filita-1"> 
         </article>
 `
-CarritoEntero.innerHTML += FotoProducto;
+carritoentero.innerHTML += fotoproducto;
 })
 .catch(function(err){
     console.log(err);
 })
 }
-FinalizarCompra.addEventListener("click", function(){
+finalizarcompra.addEventListener("click", function(){
     localStorage.removeItem("DatosDelLocal");
     alert("Gracias por su compra")
 })
