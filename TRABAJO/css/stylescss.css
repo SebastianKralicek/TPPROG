@@ -456,9 +456,7 @@ margin-left: 350px;
 .h1registro{
     margin: 10px 90px;
     text-align: center;
-    padding: 10px 0 35px 0;
-    border-bottom: 1px solid black;
-    width: 136%;
+    padding: 10px 0 15px 0;
     
 }
 
@@ -469,12 +467,14 @@ margin-left: 350px;
     margin-left: auto;
     margin-right: auto;
     background-color: white;
-    width: 400px;
     border: 2px solid black;
     border-radius: 20px; 
+    padding: 60px 15px;
+    
 }
+
 .emailregistro{
-    margin-top: 10px;
+    margin-top: 10px ;
     width: 80%;
 }
 
@@ -490,7 +490,7 @@ margin-left: 350px;
 }
 
 .terminosycondiciones{
-height: 30px;
+height: 40px;
 }
 
 .inputregister[type="submit"]{
@@ -498,13 +498,32 @@ height: 30px;
     height: 50px;
     background-color: rgb(159, 158, 158);
     border-radius: 20px;
-    margin: 0px;
     cursor: pointer;        
 }
 
 .tengocuenta{
+    
     color: blue;
     cursor: pointer;
+
+}
+
+label1 {
+    display: block;
+    font-weight: bold;
+}
+
+label2{
+    display: block;
+    font-weight: bold;
+}
+
+label3 {
+    font-weight: bold;
+}
+
+label4 {
+    font-weight: bold;
 
 }
 

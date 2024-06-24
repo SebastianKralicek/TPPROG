@@ -73,11 +73,10 @@ form.addEventListener('submit', function(event) {
     }
 
     if (!terms.checked) {
-        termsError.innerText = 'Por favor acepte los términos y condiciones';
+        termsError.innerText = '<a href = login.html> Por favor acepte los términos y condiciones</a>';
         terms.focus();
         event.preventDefault();
         return;
     }
 
-    window.location.href = './login.html';
 })
