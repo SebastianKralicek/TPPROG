@@ -348,8 +348,10 @@ margin-left: 350px;
         color: blue;
         text-align: center;
 
-    /* CSS DE RECOVER */
 
+
+    /* CSS DE RECOVER */
+    
     }
     .form-container {
         display: flex;
@@ -398,6 +400,12 @@ margin-left: 350px;
     text-align: center;
     color: blue;
     text-decoration: underline;
+    }
+
+    #successMessage {
+        color: rgb(70, 221, 10);
+        font-size: 15px;
+
     }
 
 /* CSS DE REGISTRO */

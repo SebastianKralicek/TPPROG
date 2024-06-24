@@ -26,17 +26,18 @@
         <form class="formrecover">
             <h1 class="h1recover">Recuperar contraseña</h1>
             <article class="emailrecover">
-                <label for="email">Email:</label>
+                <label for="emailrecover">Email:</label>
                 <input type="email" id="emailrecover" value="" placeholder="ejemplo@email.com">
-                <p class="errormensaje" id="EmailErrorRecover"></p>
+                <p class="errormensaje" id="emailerrorrecover"></p>
             </article>
             <article class="check">
-                <label for="checkbox">Quiero recuperar mi contraseña</label>
-                <input type="checkbox" id="PasswordRecover" id="checkbox">
-                <p class="errormensaje" id="PasswordErrorRecover"></p>
+                <label for="passwordrecover">Quiero recuperar mi contraseña</label>
+                <input type="checkbox" id="passwordrecover">
+                <p class="errormensaje" id="passworderrorrecover"></p>
             </article>
             <button type="submit" class="inputlogin">Recuperar</button>
-            <a href="./login.html" class="login-link-recover">Ir al login</a>
+            <a href="./login.html" class="login-link-recover" style="display: none;">Ir al login</a>
+            <p id="successMessage" style="display: none;">Recibirás un email con las instrucciones para recuperar tu contraseña</p>
         </form>
     </article>
     <footer class="footer">
