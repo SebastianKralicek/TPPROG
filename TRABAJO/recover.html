@@ -27,15 +27,16 @@
             <h1 class="h1recover">Recuperar contraseña</h1>
             <article class="emailrecover">
                 <label for="email">Email:</label>
-                <input type="email" name="emailrecover" value="" placeholder="ejemplo@email.com">
+                <input type="email" id="emailrecover" value="" placeholder="ejemplo@email.com">
+                <p class="errormensaje" id="EmailErrorRecover"></p>
             </article>
             <article class="check">
                 <label for="checkbox">Quiero recuperar mi contraseña</label>
-                <input type="checkbox" name="recoverPassword" id="checkbox">
+                <input type="checkbox" id="PasswordRecover" id="checkbox">
+                <p class="errormensaje" id="PasswordErrorRecover"></p>
             </article>
             <button type="submit" class="inputlogin">Recuperar</button>
-            <article class="messages"></article>
-            <a href="./login.html" class="login-link" style="display: none;">Ir al login</a>
+            <a href="./login.html" class="login-link-recover">Ir al login</a>
         </form>
     </article>
     <footer class="footer">
