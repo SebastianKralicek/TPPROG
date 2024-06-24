@@ -28,25 +28,29 @@
             <h1 class="h1registro">Regístrate</h1>
             <article class="emailregistro">
                 <label>Email:</label>
-                <input type="email" name="emailregistro" id="emailregistro" value="" placeholder="ejemplo@email.com">
+                <input type="email" id="emailregistro" value="" placeholder="ejemplo@email.com">
+                <p class="errormensaje" id="emailError"></p>
             </article>
             <article class="contraseñaregistro">
                 <label>Contraseña:</label>
-                <input type="password" name="contraseñaregistro" id="contraseñaregistro" value="" placeholder="Ejemplo123">
+                <input type="password" id="contraseñaregistro" value="" placeholder="Ejemplo123">
+                <p class="errormensaje" id="passwordError"></p>
             </article>
             <aricle class="repetircontraseñaregistro">
                 <label>Repetir Contraseña:</label>
-                <input type="password" name="repetircontraseñaregistro" value="" placeholder="repetirEjemplo123">
+                <input type="password" id="repetircontraseñaregistro" value="" placeholder="repetirEjemplo123">
+                <p class="errormensaje" id="repeatPasswordError"></p>
             </aricle>
             <article class="terminosycondiciones">
                 <label>Acepto terminos y condiciones</label>
-                <input type="checkbox" name="terminosycondiciones" value="">
+                <input type="checkbox" id="terminosycondiciones" value="">
+                <p class="errormensaje" id="termsError"></p>
             </article>
             <article>
                 <button type="submit" class="inputregister">Registrarme</button>
             </article>
             <article>
-                <a href="./login.html" class="tengocuenta">Ya tengo una cuenta</a>
+            <a href="./login.html" class="tengocuenta">Ya tengo una cuenta</a>
             </article>
         </section>
     </form>
